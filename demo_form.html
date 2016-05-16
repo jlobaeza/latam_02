@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Esta es mi página">
+	<meta name="author" content="José Luis Orellana Baeza">
+	<title>Document</title>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			Datos
+		</legend>
+	
+	<form action="">
+		<input type="text" name="name" id="name" maxlength="5" value="" placeholder="Ingresa acá tu nombre">
+		<br>
+		<input type="password" name="pass"> 
+		<br>
+		<h2>Selecciona Genero</h2>
+		<label for="genero_masculino"><input type="radio" name="genero" id="genero_masculino">Hombre</label> 
+		<label for="genero_femenino"><input type="radio" name="genero" id="genero_femenino">Mujer</label> 
+
+		<br>
+		<h2>Seleccione habilidad</h2>
+		<input type="checkbox" name=seleccion_multiple> CSS
+		<input type="checkbox" name=seleccion_multiple> HTML5
+		<input type="checkbox" name=seleccion_multiple> Ruby
+		<input type="checkbox" name=seleccion_multiple> Javascript
+		<br>
+		<h2>Seleccione</h2>
+		<select name="autos" id="seleccion_id" multiple>
+			<option value="">-- Seleccione modelo --</option>
+			<option value="1">Accent</option>
+			<option value="2">Megane 3</option>
+		</select>
+		<br>
+		<textarea name="muchotexto" id="" cols="30" rows="10"></textarea>
+		<hr>
+		<input type="email" placeholder="Ingrese su direccion de correo">
+		<hr>
+		<input type="number">
+		<hr>
+		<input type="color">
+		<hr>
+		<input type="button" name="btn" value="Enviar">
+	</form>
+	</fieldset>
+</body>
+</html>
